@@ -1,0 +1,27 @@
+<script>
+// write a program that outputs 1-100 in the console
+// when you hit a number that is a factor of 3 -> output "fizz"
+// if a factor of 5 -> output "buzz"
+// if a  factor of 3 AND 5 output -> "fizzbuzz"
+
+// function fizzbuzz(){
+
+for(var i =1; i <=100; i++){
+
+    if( i % 3 === 0 && i % 5 === 0){
+    console.log('fizzbuzz')
+    continue;}
+    
+    else if(i % 3 === 0){  
+    console.log('fizz')
+    continue;}
+
+    else if(i % 5 === 0){
+    console.log('buzz')}
+    
+    else
+    {
+    console.log(i)
+    }
+    }
+</script>
